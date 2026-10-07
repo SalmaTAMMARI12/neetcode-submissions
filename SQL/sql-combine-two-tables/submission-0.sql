@@ -1,1 +1,3 @@
-select p.first_name , p.last_name , a.city ,a.state from person p left join address a on p.person_id=a.person_id;
+select P.first_name , P.last_name , A.city , A.state 
+from person P left join address A on P.person_id=A.person_id ;
+
